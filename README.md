@@ -9,7 +9,7 @@ The Android app generates a private/public key pair and transmits the public key
 
 Server
 ------
-The server stores the users credentials as usual, along with the user's public key. When password recovery is requested, the password is encrypted with the user's public key, and encoded as a QR-code. 
+The server stores the users credentials as usual, along with the user's public key. When password recovery is requested, the password is encrypted with the user's public key, and encoded as a QR-code. The server makes use of a MySQL database for storing information. In order to use this proof of concept, create a database `qrpass` with table `users`, and columns `username`, `password`, `pubkey`, and `random`.
 
 Related publications
 --------------------
