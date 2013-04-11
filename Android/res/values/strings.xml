@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mercury</string>
+    <string name="scanButtonText">Scan QRCode</string>
+    <string name="aboutTitle">About Mercury</string>
+    <string name="aboutText">
+Mercury v%1$s\n\nFor further information, please
+visit the homepage.\n\nSome icons used in Mercury have been created by 
+Androidicons.com. That work is licensed under the Creative Commons Attribution 
+3.0 Unported License.\n\nCopyright (c) 2010, Carson Brown, David Barrera and
+Mohammad Mannan All rights reserved.\n\nRedistribution and use in source and
+binary forms, with or without modification, are permitted provided that the
+following conditions are met:\n\nRedistributions of source code must retain the
+above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this
+list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.  Neither the name of Mercury nor
+the names of its contributors may be used to endorse or promote products derived
+from this software without specific prior written permission.  THIS SOFTWARE IS
+PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n
+	</string>
+	<string name="aboutGoToHomepage">Go to homepage</string>
+	<string name="aboutClose">Close</string>
+	<string name="badScanTitle">Scan Error</string>
+	<string name="badScanMessage">Sorry, that was not a valid password QR code to be decrypted, or the input was malformed. Try again?</string>
+	<string name="badScanYes">Yes</string>
+	<string name="badScanNo">No</string>
+	<string name="getBarcodeReaderTitle">Barcode Reader Support</string>
+	<string name="getBarcodeReaderMessage">In order to use Mercury, you need to 
+install Barcode Scanner. Would you like to be taken to the Android Market to
+download it?
+	</string>
+	<string name="getBarcodeReaderYes">Yes</string>
+	<string name="getBarcodeReaderNo">No</string>
+	<string name="step1">No key pair found, generate key pair from menu</string>
+	<string name="step1_5">Transmit public key or encrypt new password from menu</string>
+	<string name="step2">Scan password or encrypt new password from menu</string>
+	<string name="step3">Scan retrieved password from mail</string>
+	<string name="overWriteKeys">Generating a new keypair will make all 
+	previously generated password QR codes unusable. Are you sure you want to do this?</string>
+</resources>

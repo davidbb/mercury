@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:paddingTop="18dip"
+        android:paddingLeft="18dip"
+        android:paddingRight="18dip"
+        android:orientation="vertical">
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:orientation="vertical">
+            <TextView
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:id="@+id/QRData"
+				android:gravity="center_vertical|center_horizontal"
+				android:textSize="12pt"
+				android:layout_weight="1" android:text="@string/step1"/>
+		</LinearLayout>
+		<LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="2"
+	        android:orientation="vertical">
+			<Button
+				android:layout_height="wrap_content"
+				android:id="@+id/PictureButton"
+				android:layout_gravity="center_horizontal"
+				android:layout_width="wrap_content"
+				android:gravity="center_vertical|center_horizontal"
+				android:text="@string/scanButtonText"
+				android:drawableTop="@drawable/barcode"
+				android:ellipsize="marquee"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="?android:attr/textColorPrimaryDisableOnly"
+                android:singleLine="true"
+				android:layout_weight="1"/>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
