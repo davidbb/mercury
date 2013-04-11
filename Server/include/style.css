@@ -1,0 +1,71 @@
+body{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif; 
+	font-size:12px;
+}
+p, h1, form, button{border:0; margin:0; padding:0;}
+.spacer{clear:both; height:1px;}
+.wrapper{
+	margin:0 auto;
+	width:400px;
+	padding:14px;
+}
+#basic{
+	border:solid 2px #DEDEDE;
+}
+#basic h1 {
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:8px;
+}
+#basic p.message{
+	font-size:11px;
+	color:#666666;
+	margin-bottom:20px;
+	padding-bottom:10px;
+}
+#basic p.message{
+	border-bottom:solid 1px #dedede;
+}
+#basic div.forgot{
+	float:left;
+	font-size:11px;
+	color:#666666;
+	width:200px;
+	margin:2px 0 30px 150px;
+}
+#basic label{
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	width:140px;
+	float:left;
+}
+#basic .small{
+	color:#666666;
+	display:block;
+	font-size:11px;
+	font-weight:normal;
+	text-align:right;
+	width:140px;
+}
+#basic input{
+	float:left;
+	width:200px;
+	margin:2px 0 30px 10px;
+}
+#basic img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+#basic button{ 
+	clear:both;
+	margin-left:150px;
+	background:#888888;
+	color:#FFFFFF;
+	border:solid 1px #666666;
+	font-size:11px;
+	font-weight:bold;
+	padding:4px 6px;
+}
+
